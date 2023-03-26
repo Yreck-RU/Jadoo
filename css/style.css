@@ -1201,7 +1201,8 @@ font-family: 'Volkhov', serif;
       -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
       order: 1;
-      right: 0; } }
+      right: 0;
+      min-height: 114.67vw; } }
 
 .category {
   padding-top: 60px;
