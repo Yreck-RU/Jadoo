@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+	<!--Заголовок страницы, контейнер для других важных данных (не отображается)-->
+	<head>
+		<!--Заголовок страницы-->
+		<title>Jadoo</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			sizes="192x192"
+			href="img/Logo.ico"
+		/>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no">
+		<!--===============================-->
+		<!--Libs-->
+
+			<!--JQ--><script src="libs/jquery.js"></script>
+			<!--SWIPER-JS--><script src="libs/swiper-bundle.min.js"></script>
+			<!--SWIPER-CSS--><link rel="stylesheet" href="libs/swiper-bundle.min.css" />
+
+		<!--===============================-->
+		<!--Css-->
+			<link rel="stylesheet" href="css/style.css" />
+		<!--===============================-->
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<header class="header lock-padding" id="elem">
+				<div class="container">
+					<div class="header__body body-header">
+						<a href="" class="body-header__logo">
+							<img src="img/Logo.png" alt="">
+						</a>
+						<div class="body-header__content content-header">
+							<div class="content-header__list menu__body">
+								<a href="#Travel" class="_link-click content-header__link link-hover">
+									Travel
+								</a>
+								<a href="#Category" class="_link-click content-header__link link-hover">
+									Category
+								</a>
+								<a href="#Bookings" class="_link-click content-header__link link-hover">
+									Bookings
+								</a>
+								<a href="#Testimonials" class="_link-click content-header__link link-hover">
+									Testimonials
+								</a>
+								<a href="#Form" class="_link-click content-header__link link-hover">
+									Form
+								</a>
+							</div>
+							<a  href="popup-find-out-more" class="popup-link content-header__button">
+								Find out more
+							</a>
+							<div class="content-header__language language-content-header header-languages" data-da=".menu__body,767,last">
+								<div class="language-content-header__button header-languages__title link-hover">
+									<span>EN</span>
+									<span class="icon-Vector-3"></span>
+								</div>
+								<div class="language-content-header__list header-languages__wrapper">
+									<div class="language-content-header__link link-hover">
+										EN
+									</div>
+									<div class="language-content-header__link link-hover">
+										RU
+									</div>
+								</div>
+							</div>
+							<div class="menu__icon">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<div class="traver _anim-items" id="Travel">
+					<div class="container">
+						<div class="traver__body body-traver">
+							<span class="traver__img-element"><img src="img/traver/2.png" alt=""></span>
+							<div class="body-traver__blok blok-body-traver-text">
+								<div class="blok-body-traver-text__sub-title">
+									Best Destinations around the world
+								</div>
+								<div class="blok-body-traver-text__title">
+									Travel, <span>enjoy</span> and live a new and full life
+								</div>
+								<div class="blok-body-traver-text__text">
+									Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+								</div>
+								<div class="blok-body-traver-text__button">
+									<a href="popup-find-out-more" class="popup-link blok-body-traver-text__link">
+										Find out more
+									</a>
+									<a href="popup-video" class="popup-link _video-button blok-body-traver-text__video">
+										<span class="img icon-Polygon-1"></span>
+										<span>Play Demo</span>
+									</a>
+								</div>
+							</div>
+							<div class="body-traver__blok blok-body-traver-img">
+								<img src="img/traver/1.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category _anim-items" id="Category">
+					<div class="container">
+						<div class="title-blok">
+							<div class="sub-title title-blok__text">
+								CATEGORY
+							</div>
+							<div class="title title-blok__text">
+								We Offer Best Services
+							</div>
+						</div>
+						<div class="category-body">
+							<div class="category-body__blok category-blok _activ">
+								<img src="img/category/1.png" alt="" class="category-blok__img">
+								<div class="category-blok__title text-title">
+									Calculated Weather 
+								</div>
+								<div class="category-blok__text text">
+									Built Wicket longer admire do barton vanity itself do in it.
+								</div>
+							</div>
+							<div class="category-body__blok category-blok">
+								<img src="img/category/2.png" alt="" class="category-blok__img">
+								<div class="category-blok__title text-title">
+									Best Flights
+								</div>
+								<div class="category-blok__text text">
+									Engrossed listening. Park gate sell they west hard for the.
+								</div>
+							</div>
+							<div class="category-body__blok category-blok">
+								<img src="img/category/3.png" alt="" class="category-blok__img">
+								<div class="category-blok__title text-title">
+									Local Events
+								</div>
+								<div class="category-blok__text text">
+									Barton vanity itself do in it. Preferd to men it engrossed listening. 
+								</div>
+							</div>
+							<div class="category-body__blok category-blok">
+								<img src="img/category/4.png" alt="" class="category-blok__img">
+								<div class="category-blok__title text-title">
+									Customization
+								</div>
+								<div class="category-blok__text text">
+									We deliver outsourced aviation services for military customers
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="selling _anim-items">
+					<div class="container">
+						<div class="title-blok">
+							<div class="sub-title title-blok__text">
+								Top Selling
+							</div>
+							<div class="title title-blok__text">
+								Top Destinations
+							</div>
+						</div>
+						<div class="selling__body selling-body">
+							<img src="img/selling/5.png" alt="" class="selling-blok__before">
+							<div class="selling-body__blok selling-blok">
+								<div class="selling-blok__img ibg">
+									<img src="img/selling/1.jpg" alt="">
+								</div>
+								<div class="selling-blok__price selling-blok-price">
+									<div class="selling-blok-price__text">
+										Rome, Italty
+									</div>
+									<div class="selling-blok-price__namber">
+										$5,42k
+									</div>
+								</div>
+								<div class="selling-blok__time selling-blok-time">
+									<span class="selling-blok-time__icon icon-Vector-1"></span><div class="selling-blok-time__namber">10</div> Days Trip
+								</div>
+							</div>
+							<div class="selling-body__blok selling-blok">
+								<div class="selling-blok__img ibg">
+									<img src="img/selling/2.jpg" alt="">
+								</div>
+								<div class="selling-blok__price selling-blok-price">
+									<div class="selling-blok-price__text">
+										Rome, Italty
+									</div>
+									<div class="selling-blok-price__namber">
+										$5,42k
+									</div>
+								</div>
+								<div class="selling-blok__time selling-blok-time">
+									<span class="selling-blok-time__icon icon-Vector-1"></span><div class="selling-blok-time__namber">10</div> Days Trip
+								</div>
+							</div>
+							<div class="selling-body__blok selling-blok">
+								<div class="selling-blok__img ibg">
+									<img src="img/selling/3.jpg" alt="">
+								</div>
+								<div class="selling-blok__price selling-blok-price">
+									<div class="selling-blok-price__text">
+										Rome, Italty
+									</div>
+									<div class="selling-blok-price__namber">
+										$5,42k
+									</div>
+								</div>
+								<div class="selling-blok__time selling-blok-time">
+									<span class="selling-blok-time__icon icon-Vector-1"></span><div class="selling-blok-time__namber">10</div> Days Trip
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="booking _anim-items" id="Bookings">
+					<div class="container">
+						<div class="booking__body">
+							<div class="booking__text text-booking">
+								<div class="text-booking__sub-title sub-title">
+									Easy and Fast
+								</div>
+								<div class="text-booking__title title">
+									Book Your Next Trip In 3 Easy Steps
+								</div>
+								<div class="text-booking__ul">
+									<div class="text-booking__li li-text-booking">
+										<div class="li-text-booking__img li-text-booking__img-yellow">
+											<img src="img/booking/1.png" alt="">
+										</div>
+										<div class="li-text-booking__blok">
+											<div class="li-text-booking__title">
+												Choose Destination
+											</div>
+											<div class="li-text-booking__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+											</div>
+										</div>
+									</div>
+									<div class="text-booking__li li-text-booking">
+										<div class="li-text-booking__img li-text-booking__img-red">
+											<img src="img/booking/2.png" alt="">
+										</div>
+										<div class="li-text-booking__blok">
+											<div class="li-text-booking__title">
+												Choose Destination
+											</div>
+											<div class="li-text-booking__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+											</div>
+										</div>
+									</div>
+									<div class="text-booking__li li-text-booking">
+										<div class="li-text-booking__img li-text-booking__img-blue">
+											<img src="img/booking/3.png" alt="">
+										</div>
+										<div class="li-text-booking__blok">
+											<div class="li-text-booking__title">
+												Choose Destination
+											</div>
+											<div class="li-text-booking__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="booking__img">
+								<img src="img/booking/Image.png" alt="" class="booking__img-pc">
+								<img src="img/booking/Image-mb.png" alt="" class="booking__img-mb">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slaider _anim-items" id="Testimonials">
+					<div class="container slaider-container">
+						<div class="slaider__wraper">
+							<div class="slaider__title">
+								<div class="text-booking__sub-title sub-title">
+									Testimonials
+								</div>
+								<div class="text-booking__title title">
+									What people say <br>
+									About Us.
+								</div>
+								<div class="slaider-button swiper">
+									<div class="slaider__pagination">
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="swiper-wrapper"></div>
+								</div>
+							</div>
+							<div class="slaider__mb">
+								<div class="slaider-content swiper">
+									<div class="swiper-wrapper">
+										<div class="slaider-content-block swiper-slide">
+											<div class="slaider-content-block__top">
+												<div class="slaider-content-block__img ibg">
+													<img src="img/slaider/1.png" alt="">
+												</div>
+												<div class="slaider-content-block__text">
+													“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+												</div>
+												<div class="slaider-content-block__title">
+													Mike taylor
+												</div>
+												<div class="slaider-content-block__sub-title">
+													Lahore, Pakistan
+												</div>
+											</div>
+											<div class="slaider-content-block__botom">
+												<div class="slaider-content-block__title">
+													Chris Thomas
+												</div>
+												<div class="slaider-content-block__sub-title">
+													CEO of Red Button
+												</div>
+											</div>
+										</div>
+										<div class="slaider-content-block swiper-slide">
+											<div class="slaider-content-block__top">
+												<div class="slaider-content-block__img ibg">
+													<img src="img/slaider/1.png" alt="">
+												</div>
+												<div class="slaider-content-block__text">
+													“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+												</div>
+												<div class="slaider-content-block__title">
+													Mike taylor
+												</div>
+												<div class="slaider-content-block__sub-title">
+													Lahore, Pakistan
+												</div>
+											</div>
+											<div class="slaider-content-block__botom">
+												<div class="slaider-content-block__title">
+													Chris Thomas
+												</div>
+												<div class="slaider-content-block__sub-title">
+													CEO of Red Button
+												</div>
+											</div>
+										</div>
+										<div class="slaider-content-block swiper-slide">
+											<div class="slaider-content-block__top">
+												<div class="slaider-content-block__img ibg">
+													<img src="img/slaider/1.png" alt="">
+												</div>
+												<div class="slaider-content-block__text">
+													“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+												</div>
+												<div class="slaider-content-block__title">
+													Mike taylor
+												</div>
+												<div class="slaider-content-block__sub-title">
+													Lahore, Pakistan
+												</div>
+											</div>
+											<div class="slaider-content-block__botom">
+												<div class="slaider-content-block__title">
+													Chris Thomas
+												</div>
+												<div class="slaider-content-block__sub-title">
+													CEO of Red Button
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slaider-butons">
+									<div class="slaider-butons__buton slaider-butons__buton_top">
+										<span class="icon-Vector-3"></span>
+									</div>
+									<div class="slaider-butons__buton slaider-butons__buton_botom">
+										<span class="icon-Vector-3"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="logo-list _anim-items">
+					<div class="container">
+						<div class="logo-list__wrapper">
+							<div class="logo-list__link">
+								<img src="img/slaider/2.png" alt="">
+							</div>
+							<div class="logo-list__link">
+								<img src="img/slaider/3.png" alt="">
+							</div>
+							<div class="logo-list__link logo-list__link_active">
+								<img src="img/slaider/4.png" alt="">
+							</div>
+							<div class="logo-list__link">
+								<img src="img/slaider/5.png" alt="">
+							</div>
+							<div class="logo-list__link">
+								<img src="img/slaider/6.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form _anim-items" id="Form">
+					<div class="container">
+						<div class="form__wrapper">
+							<img src="img/form/2.png" alt="" class="form__img-1">
+							<img src="img/form/3.png" alt="" class="form__img-2">
+							<div class="form__title">
+								Subscribe to get information, latest news and other
+								interesting offers about Cobham
+							</div>
+							<form action="" class="form__body _form">
+								<div class="form__input">
+									<span class="form__input-placeholder">Your email</span>
+									<input type="email" name="" class="_req _email _input-placeholder">
+								</div>
+								<button class="form__button">
+									<span>Subscribe</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-body">
+						<div class="footer-top">
+							<div class="footer-top__text">
+								<img src="img/footer/footeLogo.png" alt="">
+								<p>
+									Book your trip in minute, get full 
+									Control for much longer.
+								</p>
+							</div>
+							<div class="footer-top__link link-footer-top" data-spollers="520,max" data-one-spoller >
+								<div class="link-footer-top__blok footer-top-blok">
+									<button class="footer-top-blok__title" tabindex="-1" type="button" data-spoller>
+										Company
+									</button>
+									<div class="footer-top-blok__list">
+										<a href="#" class="footer-top-list__link link-hover">
+											About
+										</a>
+										<a href="#" class="footer-top-list__link link-hover">
+											Careers
+										</a>
+										<a href="#" class="footer-top-list__link link-hover">
+											Mobile
+										</a>
+									</div>
+								</div>
+								<div class="link-footer-top__blok footer-top-blok">
+									<button class="footer-top-blok__title" tabindex="-1" type="button" data-spoller>
+										Contact
+									</button>
+									<div class="footer-top-blok__list">
+										<a href="#" class="footer-top-list__link link-hover">
+											Help/FAQ
+										</a>
+										<a href="#" class="footer-top-list__link link-hover">
+											Press
+										</a>
+										<a href="#" class="footer-top-list__link link-hover">
+											Affilates
+										</a>
+									</div>
+								</div>
+								<div class="link-footer-top__blok footer-top-blok">
+									<button class="footer-top-blok__title" tabindex="-1" type="button" data-spoller>
+										More
+									</button>
+									<div class="footer-top-blok__list">
+										<a href="#" class="footer-top-list__link link-hover">
+											Airlinefees
+										</a>
+										<a href="#" class="footer-top-list__link link-hover">
+											Airline
+										</a>
+										<a href="#" class="footer-top-list__link link-hover">
+											Low fare tips
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="footer-top__socialNetwork socialNetwork-footer">
+								<div class="socialNetwork-footer__list">
+									<div class="socialNetwork-footer__link footer-socialNetwork-link-faisbuk">
+										<span class="icon-Facebook-Icon"></span>
+									</div>
+									<div class="socialNetwork-footer__link footer-socialNetwork-link-instogram ibg">
+										<img src="img/footer/instogramPng.png" alt="">
+									</div>
+									<div class="socialNetwork-footer__link footer-socialNetwork-link-twitr">
+										<span class="icon-Vector"></span>
+									</div>
+								</div>
+								<div class="socialNetwork-footer__title">
+									Discover our app
+								</div>
+								<div class="socialNetwork-footer__telephoneList">
+									<a href="" class="socialNetwork-footer__telephoneLink footer-socialNetwork-telephoneLink-gogle">
+										<img src="img/footer/GooglePlay.png" alt="">
+									</a>
+									<a href="" class="socialNetwork-footer__telephoneLink footer-socialNetwork-telephoneLink-apple">
+										<img src="img/footer/PlayStore.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer-bottom">
+							All rights reserved@jadoo.co
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div class="popup" id="popup-find-out-more">
+				<div class="popup__body">
+					<div class="popup__content">
+						<div class="popup__title">
+							<span>Find out more</span>
+							<span class="popup__close close-popup">
+								<span></span>
+							</span>
+						</div>
+						<form class="popup-form _form"> 
+							<div class="popup-form__title">
+								Number:
+							</div>
+							<div class="form__input popup-form__input">
+								<input type="tel" data-tel-input maxlength="18" class="_req _input-placeholder">
+							</div>
+							<div class="popup-form__title">
+								Email:
+							</div>
+							<div class="form__input popup-form__input">
+								<input type="email" name="" class="_req _email _input-placeholder">
+							</div>
+							<div class="input_checkbox input-checkbox_margin-20px _form-validation__body">
+								<input type="checkbox" id="popup-checkbox-1" class="_req"> 
+								<label for="popup-checkbox-1">I have read and agree to the terms of service</label>
+							</div>
+							<button  class="form__button popup__button"><span>SEND</span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="popup" id="popup-video">
+				<div class="popup__body">
+					<div class="popup__content popup__content-video">
+						<div class="popup__title">
+							<span></span>
+							<span class="popup__close popup__close_whele close-popup">
+								<span></span>
+							</span>
+						</div>
+						<video controls="">
+							<source data-video="video/video.mp4" src="img/plug.png" type="video/mp4" class="_video">
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
