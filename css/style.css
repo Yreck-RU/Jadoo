@@ -1592,7 +1592,10 @@ font-family: 'Volkhov', serif;
       left: 0%; } }
   @media (max-width: 767px) {
     .booking__img img.booking__img-pc {
-      display: none; } }
+      opacity: 0;
+      pointer-events: none;
+      max-width: 0;
+      max-height: 0; } }
 
 .booking__img-mb {
   width: 100%;
